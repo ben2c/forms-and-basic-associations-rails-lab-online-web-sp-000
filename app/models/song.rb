@@ -1,36 +1,3 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-
-Sign in
-Sign up
-learn-co-students
-/
-forms-and-basic-associations-rails-lab-v-000
-21.1k
-Code
-Issues
-1
-Pull requests
-1.1k
-Actions
-Projects
-Security
-Insights
-forms-and-basic-associations-rails-lab-v-000/app/models/song.rb /
-
-Mohawk Greene Fixes #15 & #16
-Latest commit b861db3 on Oct 29, 2019
- History
- 2 contributors
-@queerviolet@jmburges
-49 lines (41 sloc)  1.07 KB
-  
 class Song < ActiveRecord::Base
   belongs_to :artist
   belongs_to :genre
